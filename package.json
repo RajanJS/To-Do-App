@@ -1,0 +1,26 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "Simple NodeJS To-Do Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajanJS/To-Do-App.git"
+  },
+  "keywords": [
+    "nodejs",
+    "to-do"
+  ],
+  "author": "RajanMaharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajanJS/To-Do-App/issues"
+  },
+  "homepage": "https://github.com/RajanJS/To-Do-App#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
