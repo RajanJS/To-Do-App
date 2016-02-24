@@ -1,5 +1,5 @@
-## Todo-App API
-Simple NodeJS to-do-app API with CRUD (GET, POST, DEL, PUT) functionalites.
+## Todo API
+Simple NodeJS Todo API with CRUD (GET, POST, DEL, PUT) functionalites.
 
 #### To use this application
 * Clone this application or download as zip.
