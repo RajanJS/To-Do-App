@@ -11,7 +11,7 @@ node server.js
 ```
 
 #### For live API :
-[Todo-app API](http://rajan-todo-app.herokuapp.com/)
+[Todo API](http://rajan-todo-api.herokuapp.com/)
 
 ##### Features:
 * Used [Express.js](http://expressjs.com/) to create web app.
