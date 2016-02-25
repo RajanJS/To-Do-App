@@ -50,7 +50,7 @@ app.get('/todos/:id', function(req, res) {
 			res.json(todo.toJSON());
 		}
 	}, function(e) {
-		res.status(404).json(e);
+		res.status(404).send();
 	});
 });
 
