@@ -48,9 +48,11 @@ app.get('/todos/:id', function(req, res) {
 	db.todo.findById(todoId).then(function(todo) {
 		if (!!todo) {
 			res.json(todo.toJSON());
+		} else {
+			res.status(400).send();
 		}
 	}, function(e) {
-		res.status(404).send();
+		res.status(500).json(e);
 	});
 });
 
