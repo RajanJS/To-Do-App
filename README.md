@@ -26,7 +26,7 @@ http://rajan-todo-api.herokuapp.com/users/login
 ```
 http://rajan-todo-api.herokuapp.com/todos
 ```
-*to delete todos with id; (DEL) request.
+* to delete todos with id; (DEL) request.
 ```
 http://rajan-todo-api.herokuapp.com/todos/1
 ```
