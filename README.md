@@ -10,19 +10,43 @@ node server.js
 
 ```
 ##### To use API
-* to get all json data.
+* to create new user (POST) request.
+```
+http://rajan-todo-api.herokuapp.com/users
+```
+* to login with created user (POST) request.
+```
+http://rajan-todo-api.herokuapp.com/users/login
+```
+* to delete/logout user (DELETE) request.
+```
+http://rajan-todo-api.herokuapp.com/users/login
+```
+* to add todos (POST) request.
+```
+http://rajan-todo-api.herokuapp.com/todos
+```
+*to delete todos with id; (DEL) request.
+```
+http://rajan-todo-api.herokuapp.com/todos/1
+```
+* to get all json data (GET) request.
 ````
 http://rajan-todo-api.herokuapp.com/todos 
 ````
-* to filter data with id;
+* to filter data with id (GET) request.
 ````
 http://rajan-todo-api.herokuapp.com/todos/1
 ````
-* to filter data with query params; 'q' for filtering with description and 'completed' to filter with completed status
+* to filter data with query params (GET) request; 'q' for filtering with description and 'completed' to filter with completed status
 ````
 http://rajan-todo-api.herokuapp.com/todos?q=Walk
 http://rajan-todo-api.herokuapp.com/todos?completed=true
 ````
+* to update todos with id ; (PUT) request.
+```
+http://rajan-todo-api.herokuapp.com/todos/1
+```
 
 #### For live API :
 [Todo API](http://rajan-todo-api.herokuapp.com/)
